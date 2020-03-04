@@ -34,7 +34,8 @@ function dwarfRollCall(dwarves) {
   return DRF;
 }
 
-function findTheCheese (foods) {
+function findTheCheese (foods) 
+{
   for(var i=0;i<foods.length;i++)
   
 
