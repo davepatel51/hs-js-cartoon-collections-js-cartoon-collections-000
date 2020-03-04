@@ -15,8 +15,8 @@ return planeteerCalls.map(x=>x.toUpperCase()+"!")
 }
 
 function longPlaneteerCalls(wordsize){
-  for(var i=0;i<wordsize.length;i++){
-    if (wordsize[i].length>4){
+  for(var x=0;x<wordsize.length;x++){
+    if (wordsize[x].length>4){
       return true
     }
   }
@@ -35,12 +35,12 @@ function dwarfRollCall(dwarves) {
 }
 
 function findTheCheese (cheese) {
-  for(var x=0;i<cheese.length;i++){
-  if (cheese[i]=="cheddar"
-  ||cheese[i]=="gouda"
-  ||cheese[i]=="camembert"
+  for(var x=0;i<cheese.length;x++){
+  if (cheese[x]=="cheddar"
+  ||cheese[x]=="gouda"
+  ||cheese[x]=="camembert"
   ){
-    return cheese[i]
+    return cheese[x]
   }
 }
 return "no cheese!"
