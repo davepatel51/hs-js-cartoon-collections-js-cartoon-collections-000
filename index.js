@@ -35,7 +35,7 @@ function dwarfRollCall(dwarves) {
 }
 
 function findTheCheese (cheese) {
-  for(var x=0;i<cheese.length;x++){
+  for(var x=0;x<cheese.length;x++){
   if (cheese[x]=="cheddar"
   ||cheese[x]=="gouda"
   ||cheese[x]=="camembert"
