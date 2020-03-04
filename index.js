@@ -34,9 +34,16 @@ function dwarfRollCall(dwarves) {
   return DRF;
 }
 
-function findTheCheese (foods) 
-{
-  for(var i=0;i<foods.length;i++)
-  
+function findTheCheese (cheese) {
+  for(var i=0;i<cheese.length;i++){
+  if (cheese[i]=="cheddar"
+  ||cheese[i]=="gouda"
+  ||cheese[i]=="camembert"
+  ){
+    return cheese[i]
+  }
+}
+return "no cheese!"
+}
 
   
